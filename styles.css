@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvectica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D6D5C9;
+}
+
+header {
+    background-color: #A7A58B;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#data-container {
+    margin-bottom: 20px;
+}
+
+#charts-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#data-container {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #031927; /* Change border color to #031927 */
+    text-align: left;
+    padding: 10px;
+    background-color: #c5c583;
+}
+
+th {
+    background-color: #a0a083; /* Change header background color to #8D99AE */
+    color: #031927; /* Change header text color to #031927 */
+}
+
+#charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    max-width: 80%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 20px 40px; /* Add padding for a larger button */
+    font-size: 18px; /* Set the font size */
+    background-color: #4d6a6d; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #5d888d; /* Darker background color on hover */
+}
