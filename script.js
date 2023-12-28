@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     document.getElementById('loadDataButton').addEventListener('click', function () {
-        /
+        
         document.getElementById('data-container').innerHTML = '';
         document.getElementById('charts-container').innerHTML = '';
 
