@@ -36,15 +36,15 @@ table {
 }
 
 th, td {
-    border: 2px solid #031927; /* Change border color to #031927 */
+    border: 2px solid #031927; 
     text-align: left;
     padding: 10px;
     background-color: #c5c583;
 }
 
 th {
-    background-color: #a0a083; /* Change header background color to #8D99AE */
-    color: #031927; /* Change header text color to #031927 */
+    background-color: #a0a083; 
+    color: #031927; 
 }
 
 #charts-container {
@@ -65,17 +65,17 @@ h2 {
 
 button {
     display: block;
-    margin: 20px auto; /* Center the button horizontally */
-    padding: 20px 40px; /* Add padding for a larger button */
-    font-size: 18px; /* Set the font size */
-    background-color: #4d6a6d; /* Button background color */
-    color: #ffffff; /* Button text color */
+    margin: 20px auto; 
+    padding: 20px 40px; 
+    font-size: 18px; 
+    background-color: #4d6a6d; 
+    color: #ffffff; 
     border: none;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     cursor: pointer;
 }
 
-/* Hover effect for the button */
+
 button:hover {
-    background-color: #5d888d; /* Darker background color on hover */
+    background-color: #5d888d; 
 }
